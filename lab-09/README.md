@@ -41,7 +41,7 @@ What does this tell us? Lets break it down into sections.
 WHATS THE POINT?
 ----------------
 
-Panicing is there if we know that there is a situation that we cannot continue on so we may as well exit now rather than continuing. Best practise says our code should never really crash and we should handle erros, but that's something else we will get onto shortly. We can also make our code panic whenever we like by calling the `panic()` builtin function. 
+panicking is there if we know that there is a situation that we cannot continue on so we may as well exit now rather than continuing. Best practise says our code should never really crash and we should handle erros, but that's something else we will get onto shortly. We can also make our code panic whenever we like by calling the `panic()` builtin function. 
 
 
 LAB TASK

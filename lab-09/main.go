@@ -1,8 +1,13 @@
 package main
 
+import "fmt"
+
 func main() {
 	num := 5
+	fmt.Println("about to goDoSomething()")
 	goDoSomething(num)
+	// this line of code will not get run as we are panicking in the function call above
+	fmt.Println("I will never get printed")
 }
 
 func goDoSomething(num int) {
