@@ -16,5 +16,4 @@ func main() {
 	// we can reassign values the same way as before
 	myString = "!dlroW olleH"
 	println(myString)
-
 }
