@@ -8,7 +8,7 @@ We saw with our divide in a previous lab that we could send back an error if som
 var (
 	ErrDivByZero      = errors.New("attempt to divide by zero")
 	ErrDivByOne       = errors.New("are you sure you want to divide by one")
-	ErrRemainderFound = errors.New("the was a remainder")
+	ErrRemainderFound = errors.New("there was a remainder")
 )
 ```
 

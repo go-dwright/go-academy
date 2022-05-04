@@ -8,7 +8,7 @@ import (
 var (
 	ErrDivByZero      = errors.New("attempt to divide by zero")
 	ErrDivByOne       = errors.New("are you sure you want to divide by one")
-	ErrRemainderFound = errors.New("the was a remainder")
+	ErrRemainderFound = errors.New("there was a remainder")
 )
 
 func main() {
