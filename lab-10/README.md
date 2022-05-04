@@ -33,7 +33,7 @@ LAB TASK
 
 Write some tests in the `TestDivide()` function in the `main_test.go` file and prove that the divide function is working as expected. The following is our desired behaviour that we should test:
 
-If the denominator is 0, then we should get an error back
-If the denominator is not 0, then we should not get an error back
-If we get an error, the result should be 0
-If we do not get an error, the result should be the correct division
+- If the denominator is 0, then we should get an error back
+- If the denominator is not 0, then we should not get an error back
+- If we get an error, the result should be 0
+- If we do not get an error, the result should be the correct division

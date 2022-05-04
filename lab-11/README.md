@@ -51,9 +51,9 @@ LAB TASK
 
 Write some tests in the `TestDivide()` function in the `main_test.go` file and prove that the divide function is working as expected. The following is our desired behaviour that we should test:
 
-If the denominator is 0, then we should get an ErrDivByZero error back
-If the denominator is 1, then we should get an ErrDivByOne error back
-If the numbers do not neatly divide, then we should get an ErrRemainderFound error back
-If we get an ErrDivByZero error, the result should be 0
-If we get an ErrDivByOne or ErrRemainderFound error, the result should be the correct division
-If we do not get an error, the result should be the correct division
+- If the denominator is 0, then we should get an ErrDivByZero error back
+- If the denominator is 1, then we should get an ErrDivByOne error back
+- If the numbers do not neatly divide, then we should get an ErrRemainderFound error back
+- If we get an ErrDivByZero error, the result should be 0
+- If we get an ErrDivByOne or ErrRemainderFound error, the result should be the correct division
+- If we do not get an error, the result should be the correct division
