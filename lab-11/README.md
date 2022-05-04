@@ -45,6 +45,7 @@ if err == ErrDivByZero{
 } else {
 	 doSomething()
 }
+```
 
 LAB TASK
 --------
